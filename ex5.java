@@ -13,12 +13,10 @@ public class ex5 {
         System.out.print("input c: ");
         int c = scanner.nextInt();
         int max = a;
-        if (b > max) {
+        if (b > max)
             max = b;
-        }
-        if (c > max) {
+        if (c > max)
             max = c;
-        }
         System.out.println("The largest number is " + max);
     }
 }

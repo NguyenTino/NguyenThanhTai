@@ -10,8 +10,10 @@ public class ex3 {
         int y = scanner.nextInt();
         if (y % 4 == 0 && y % 100 != 0) {
             System.out.println(y + " is a leap year.");
-        }else if (y%400==0){
-            System.out.println(y+" is a leap year.");
+        } else if (y % 400 == 0) {
+            System.out.println(y + " is a leap year.");
+        } else {
+            System.out.println(y + "is not a leap year.");
         }
     }
 }

@@ -13,15 +13,13 @@ public class ex8 {
         System.out.print("Input c: ");
         int c = scanner.nextInt();
         if (a + b > c && a + c > b && b + c > a) {
-            if (a == b && a == c) {
+            if (a == b && a == c)
                 System.out.println("Equilateral");
-            } else if (a == b || a == c || b == c) {
+            else if (a == b || a == c || b == c)
                 System.out.println("Isosceles");
-            } else {
+            else
                 System.out.println("Scalene");
-            }
-        } else {
+        } else
             System.out.println("The three sides not form a valid triangle.");
-        }
     }
 }

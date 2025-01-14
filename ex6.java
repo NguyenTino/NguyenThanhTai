@@ -9,15 +9,14 @@ public class ex6 {
         System.out.print("Input the number of kWh consumed: ");
         int a = scanner.nextInt();
         int s;
-        if (a > 0 && a <= 50) {
+        if (a > 0 && a <= 50)
             s = 1678 * a;
-        } else if (a > 50 && a <= 100) {
+        else if (a > 50 && a <= 100)
             s = 1734 * a;
-        } else if (a > 100 && a <= 200) {
+        else if (a > 100 && a <= 200)
             s = 2014 * a;
-        } else {
-            s = 2546 * a;
-        }
+        else
+            s = 2536 * a;
         System.out.println("Total electricity cost: " + s);
     }
 }
